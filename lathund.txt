@@ -15,8 +15,8 @@ git status
 git log
 
 #Create local commits
-git add .
-git commit -m "some description text"
+git add .                                 #<----- Stage which files to commit
+git commit -m "some description text"     #<----- Save a commit with a message
 
 #Upload the changes to the remote repo origin
 git push origin main
