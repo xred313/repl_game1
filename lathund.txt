@@ -1,0 +1,22 @@
+
+#Create a new repo
+git init
+
+#Add external git repo called origin
+git remote add origin https://....
+
+#Get the changes from the origin
+git pull origin main
+
+#get the change status
+git status
+
+#get list of all commits
+git log
+
+#Create local commits
+git add .
+git commit -m "some description text"
+
+#Upload the changes to the remote repo origin
+git push origin main
